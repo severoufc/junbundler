@@ -2,6 +2,8 @@
 
 JUnbundler is a tool aimed to support the unbundling process of Java projects and it's part of a exploratory study on API unbunding. Software unbundling consists of the division of a software into bundles (smaller and/or specialized modules) usually due to emerging features that deserves to become a product on their own, maintenance easiness, team wotk division, etc. The exploratory study supported by JUnbundler focus on API undundability based on client usage, which analyses how the API clients usage migth be take in account throught the unbundling process of those APIs.
 
+The experiment data is available at our [Mendeley Dataset: http://dx.doi.org/10.17632/79cnxss98s.1](http://dx.doi.org/10.17632/79cnxss98s.1)
+
 # Steps to reproduce the unbudling process
 
 To run the unbundling process, import the JUnbundler project into your workspace and execute the JUnbundler class (jubundler/src/main/java/JUnbundler.java). This dataset comes with our APIs list configured into "jubundler/apis/apis.json" but you are free to include and exclude to APIs you want to analyze.
